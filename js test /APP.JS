@@ -1,4 +1,10 @@
 alert("welcome")
+var secret="bader"
+var userInput=prompt("guess the secret code")
+while(secret !=userInput){
+userInput=prompt("please try again")
+}
+
 var userName=prompt("please provide your name");
 
 var userAge=prompt("please provide your age");
@@ -19,7 +25,7 @@ ava(totalamount)
 if (totalamount>1 && totalamount< 50){
     alert("congrat you earned 10% discount next time");
 }else if(totalamount >=50 && totalamount<1000){
-    
+
 }else if(amountofbitcoin >=50 && amountofbitcoin<1000){
     alert("congrat you earned 25% discount next time");
 }else if((totalamount) =0){
@@ -40,6 +46,13 @@ else if(userAge < 18){
 }   else{
     alert("wrong nput")
 }
+
+var userinputnumber= prompt("number of pic")
+for ( var i = 0; i <= userinputnumber; i++) {
+    (document.write('<img src="https://pbs.twimg.com/profile_images/875749462957670400/T0lwiBK8_400x400.jpg">'))
+}
+
+
 console.log(userAge);
 console.log(userName);
 console.log(userColor);
