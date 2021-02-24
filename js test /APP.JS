@@ -10,7 +10,6 @@ var price=20
 var amountofRipple=prompt("how many ripple you do want")
 var amountofxrp=prompt("how many xrp you do want")
 var amountofbitcoin=prompt("how many bitcoin you do want");
-<<<<<<< HEAD
 var totalamount= (amountofbitcoin + amountofxrp + amountofRipple);
 function ava(totalamount){
     avgsalary=(totalamount*price)/3;
@@ -20,11 +19,8 @@ ava(totalamount)
 if (totalamount>1 && totalamount< 50){
     alert("congrat you earned 10% discount next time");
 }else if(totalamount >=50 && totalamount<1000){
-=======
-if (amountofbitcoin >1 && amountofbitcoin< 50){
-    alert("congrat you earned 10% discount next time");
+    
 }else if(amountofbitcoin >=50 && amountofbitcoin<1000){
->>>>>>> 707cb43aac9eea1ce9bd3df3e7551b2736c925dc
     alert("congrat you earned 25% discount next time");
 }else if((totalamount) =0){
     alert("sorry");
