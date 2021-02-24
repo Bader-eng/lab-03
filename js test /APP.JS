@@ -8,9 +8,9 @@ var userColor=prompt("please provide your color");
 confirm("wlcame to our store");
 var price=20
 var amountofbitcoin=prompt("how many bitcoin you do want");
-if (amountofbitcoin >5 && amountofbitcoin< 10){
+if (amountofbitcoin >1 && amountofbitcoin< 50){
     alert("congrat you earned 10% discount next time");
-}else if(amountofbitcoin >=10 && amountofbitcoin<20){
+}else if(amountofbitcoin >=50 && amountofbitcoin<1000){
     alert("congrat you earned 25% discount next time");
 }else if(amountofbitcoin=0){
     alert("sorry ");
